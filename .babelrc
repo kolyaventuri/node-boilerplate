@@ -1,5 +1,5 @@
 {
-  "presets": ["@babel/preset-env"],
+  "presets": ["@babel/preset-env", "flow"],
   "plugins": [
     "transform-react-jsx",
     "transform-class-properties"

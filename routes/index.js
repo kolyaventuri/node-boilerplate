@@ -1,6 +1,7 @@
-import express from 'express';
+import {Router} from 'express';
 
-const router = express.Router();
+/* eslint-disable-next-line new-cap */
+const router = Router();
 
 /* GET index page. */
 router.get('/', (req, res) => {
