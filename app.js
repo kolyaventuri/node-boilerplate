@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({
 
 app.use(cookieParser());
 
+if (process.env.NODE_ENV !== 'production') {
+  require('./webpack/dev-server').default(app);
+}
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
