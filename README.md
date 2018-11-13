@@ -2,6 +2,7 @@
 ### My Personal Boilerplate Application
 
 This is the setup for the bulk of my React web apps. Figured I would throw it together in one repo for easy access to me, as well as anyone else who wants to use it.
+This boilerplate does use exceptionally strict linting. Clean code is good code.
 
 ## Tech Stack
 - [Node.JS](https://nodejs.org/en/)
@@ -28,10 +29,10 @@ This is the setup for the bulk of my React web apps. Figured I would throw it to
 - It can be run in development mode (Nodemon for auto-reload) with `npm run dev`
 
 ## Running tests
-- Jest can be run with `npm test` (note, this will also run `xo` for linting)
+- Jest can be run with `npm test` (note, this will also run `flow` and `xo` for linting)
 
 ## Linting
-- Linting is accomplished using xo, with `npm run lint`
+- Linting is accomplished using xo, with `npm run lint`. This will run `flow` and `xo`
 
 ## Development notes
 - Webpack entry is at `src/index.js`
