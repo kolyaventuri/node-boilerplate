@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/start",
+    "dev": "nodemon --ignore src/**/* --exec node ./bin/start",
     "flow": "flow",
     "lint": "xo"
   },
@@ -50,6 +51,7 @@
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.86.0",
     "jest": "^23.6.0",
+    "nodemon": "^1.18.6",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
