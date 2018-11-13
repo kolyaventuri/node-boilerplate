@@ -7,9 +7,9 @@
     "start": "node ./bin/start",
     "dev": "nodemon --ignore src/**/* --exec node ./bin/start",
     "build": "webpack --config ./webpack/webpack.prod.js --progress --colors",
-    "test": "xo && jest",
+    "test": "flow && xo && jest",
     "flow": "flow",
-    "lint": "xo"
+    "lint": "flow && xo"
   },
   "dependencies": {
     "@babel/core": "^7.1.5",
@@ -26,6 +26,7 @@
     "morgan": "^1.8.2",
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",

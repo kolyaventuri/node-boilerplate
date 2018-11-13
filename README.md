@@ -1,7 +1,7 @@
 # Boilerplate
 ### My Personal Boilerplate Application
 
-This is the setup for the bulk of my Node.JS web apps. Figured I would throw it together in one repo for easy access to me, as well as anyone else who wants to use it.
+This is the setup for the bulk of my React web apps. Figured I would throw it together in one repo for easy access to me, as well as anyone else who wants to use it.
 
 ## Tech Stack
 - [Node.JS](https://nodejs.org/en/)
