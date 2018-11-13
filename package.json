@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node ./bin/start",
     "dev": "nodemon --ignore src/**/* --exec node ./bin/start",
+    "build": "webpack --config ./webpack/webpack.prod.js --progress --colors",
+    "test": "xo && jest",
     "flow": "flow",
     "lint": "xo"
   },
@@ -55,6 +57,7 @@
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.86.0",
     "jest": "^23.6.0",
+    "jest-enzyme": "^7.0.1",
     "nodemon": "^1.18.6",
     "xo": "^0.23.0"
   },
