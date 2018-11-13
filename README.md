@@ -33,5 +33,8 @@ This is the setup for the bulk of my Node.JS web apps. Figured I would throw it 
 ## Linting
 - Linting is accomplished using xo, with `npm run lint`
 
+## Development notes
+- Webpack entry is at `src/index.js`
+
 ## Notes
 - A `beforeCommit` hook is defined in the `package.json` file that forces linter to pass to be able to commit
