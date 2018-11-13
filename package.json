@@ -51,10 +51,12 @@
     "parser": "babel-eslint",
     "space": true,
     "extends": [
-      "xo-react/space"
+      "xo-react/space",
+      "plugin:flowtype/recommended"
     ],
     "plugins": [
-      "babel"
+      "babel",
+      "flowtype"
     ],
     "rules": {
       "babel/semi": true
