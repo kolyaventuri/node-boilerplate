@@ -43,7 +43,7 @@
     "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-loader": "^8.0.4",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
