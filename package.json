@@ -9,7 +9,8 @@
     "build": "webpack --config ./webpack/webpack.prod.js --progress --colors",
     "test": "flow && xo && jest",
     "flow": "flow",
-    "lint": "flow && xo"
+    "lint": "flow && xo",
+    "lint:soft": "xo"
   },
   "dependencies": {
     "@babel/core": "^7.1.5",
@@ -65,7 +66,7 @@
     "xo": "^0.23.0"
   },
   "pre-commit": [
-    "lint"
+    "lint:soft"
   ],
   "xo": {
     "parser": "babel-eslint",
